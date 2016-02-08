@@ -49,7 +49,8 @@ function flipImages(image, val){
                 function closeOpenImages(){
                     var open_image_1 = document.getElementById(image_ids[0]);
                     var open_image_2 = document.getElementById(image_ids[1]);
-                    open_image_1.innerHTML = open_image_2.innerHTML = "";
+                    open_image_1.innerHTML = "";
+                    open_image_2.innerHTML = "";
                     image_values = image_ids = [];
                 }
                 setTimeout(closeOpenImages, 700);
